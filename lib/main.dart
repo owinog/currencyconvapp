@@ -9,15 +9,17 @@ void main() {
       providers: [
         ChangeNotifierProvider(create: (_) => CurrencyViewModel()),
       ],
-      child: CurrencyConverterApp(),
+      child: const CurrencyConverterApp(),
     ),
   );
 }
 
 class CurrencyConverterApp extends StatelessWidget {
+  const CurrencyConverterApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: HomeScreen(),
     );
   }

@@ -8,6 +8,7 @@ class AppColors {
   static const Color accent = Colors.red;
   static const Color buttonBackground = Color(0x81225C26);
   static const Color buttonText = Colors.lightGreen;
+  static const Color iconColor = Colors.white;
 }
 
 class AppFonts {
@@ -54,4 +55,5 @@ class AppSizes {
   static const double padding = 24.0;
   static const double cardCornerRadius = 22.0;
   static const double flagSize = 12.0;
+  static const double iconSize = 30.0;
 }
